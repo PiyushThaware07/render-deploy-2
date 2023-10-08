@@ -16,9 +16,13 @@
     <h1>Working</h1>
 
     <script>
+<<<<<<< HEAD
       const mySocket = new WebSocket(
         `wss://${window.location.host}/notification/`
       );
+=======
+        const mySocket = new WebSocket(`wss://${window.location.host}/notification/`);
+>>>>>>> ea9ae2120b1af07386d05b8a30d5e9326c0f9544
 
       mySocket.onopen = function (event) {
         console.warn("Websocket Connected...", event);
